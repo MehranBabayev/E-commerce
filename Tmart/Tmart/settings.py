@@ -200,12 +200,12 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_URL = 'logout'
 LOGOUT_REDIRECT_URL = 'login'
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = True
+EMAIL_HOST_PASSWORD = 'dwgzranwwypwvczj'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'sebnemadil1999@gmail.com'
-EMAIL_HOST_PASSWORD = 'szhlclkyzbguxuhk'
+EMAIL_HOST_USER = 'tmartuser580@gmail.com'
 EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 AUTHENTICATION_BACKENDS = [
     'social_core.backends.linkedin.LinkedinOAuth2',
